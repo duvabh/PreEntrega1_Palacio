@@ -9,7 +9,7 @@ export const App = () => {
     <div>
       <Navbar company_name={"DPalacio Shop"} />
       <ItemListContainer
-        greeting={"Esto es un mensaje con styling integrado"}
+        greeting={"Esto es un mensaje con styling integrado para la entrega"}
       />
     </div>
   );
