@@ -1,12 +1,16 @@
 import "./App.css";
 
 /* Components */
-import { Navbar } from "./Navbar/Navbar"; //importación y ejecucción
+import { Navbar } from "./Navbar/Navbar";
+import { ItemListContainer } from "./ItemListContainer/ItemListContainer"; //importación y ejecucción
 
 export const App = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar company_name={"DPalacio Shop"} />
+      <ItemListContainer
+        greeting={"Esto es un mensaje con styling integrado"}
+      />
     </div>
   );
 };
